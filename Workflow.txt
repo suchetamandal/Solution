@@ -1,0 +1,41 @@
+Time is very adequate, you can do slowly, is to ask you if you how you will choose, you agree with the views and give a few practices to score the title of the problem
+
+Every employee to discuss case media network server Recently a lot of complaints, there are Germany, there is invalid recommendation, given a list of many countries to return to what the server 404 / german recommendation / invalid recom / ask what is the reason. There are two young and old white discussion guests to strongly require a hardcover book recommended, but the server only the digital version, in the end should not add this feature, the feeling behind the video is based on your choice (to be verified); There is a meeting room white, Asian, branded in the discussion server recently a lot of complaints, and then I choose to look at the Intenal test, the results behind the end of the mark to stand up and righteousness told me that I have written a 20-year server , Can not be wrong, and I have just debugging the machine, absolutely impossible to internal errors. Oh, there is an option to ask, imprint is not helpful ... only Oh ~ ~ most with the ground to say the same, similar to the survey, select deadline more important and user experience is more important.
+
+The first situation is to write books to the library recommendation system, the first asked two people to continue to say that the second asked the library server is not open on the entity book api
+
+Behind the meeting that the system appears bug, what to do, choose to see internal bug records.
+
+Finally, five cases to see which can be, the predecessors have suggested that attention to the user constructor did not give email assignment.
+
+simulation is to see email, chat ... we remember every time you receive email will see, I did not encounter the problem of email directly skip, then do a few questions when the discovery of information rarely do not come out random Selected, turned over the record to find some information in those who did not know the email in the. The Look at the log to find the same mistakes on the law, I remember there was a way I chose the location in Germany, there is a long too long because there is no deposit, testcase is that the words that the email is not initialized,
+
+Find the wrong question There are five unit test There is a user's payment method is null, one is the user constructor does not contain email, one is setPrice () passed the parameters are double, but the return is int. 6: 4-> 5-> 6-> 7-> 8 to 2- [2- 6> 5 -> 2-> 6 -> 2-> 4-> 5> 4-> 3-> 6 is very simple to say
+
+Work Simulation at the beginning of the two code farmers tear, one to use the old API to meet the deadline, a new API to be developed alone to meet the requirements, this question for you to choose three times, each time the video is based on your choice And different. The Landlord tangled for a long time after the choice of standing in the higher value of the code side of the farmers. The Meet the requirements. The That Sa problem is actually a small test: the first election deadlline, because this time did not put forward the user. After the two full-user priority. The The The The Write here for future generations reference.
+
+The other is not such a second choice of a desperate, as long as the deadline is best not to drag, their own hard little does not matter, more consulting manager, find other experienced people cooperation, The
+
+There will be a plan to let you arrange a project, because there are many different features can be achieved, but to get within 8 months, each feature will have an estimated time and the importance of this feature. The As long as the insistence on the same time in the situation, more election Niubi feature. The
+
+Log Lane I chose the proxy, invalid recommendation is because the username is too long, database that field definition length is short. The
+
+ShoppingCartClass two questions three short one long election long, before so choose to get the video. The
+
+5 Testcase election 1, 3, 5 too, 2, 4 can be too. The
+
+Displaying German is because proxy is wrong because username is too long to be simplified. Time is not enough to worry about completely
+
+dealline and requirement Look at it.
+
+log problem. Find the same reason on the line. I see the log is a service problem, and gave you a report. The first question is why there will be German, see report found that the German common point is located in Germany, so the answer is selected locate. The second question is why some are invalid, see report found in common are username is very long, so the election username is very long.
+
+test case. Code about shopping. The first question is why a method does not work, the answer selected performance issue. This is not sure (the other few options are more unreasonable). The second question is how to improve shoppingcart class. I chose the add user.id to shoppingcart class. The third question is the five test case. Where the predecessors said a lot, it should be 1,3,5 run, however. The first one is getdefualtpayment will return null. The third is the user does not initialize email, so getemail will go wrong. The fifth is set_1's method returns the integer, and testcase set is double.
+
+
+OA2 - Debugging
+
+OOD of the title, a total of three, the first is to ask you one of the methods have any problems, the second is to ask a shopping cart class what is the problem, the third is to give five test case can not , Remember that there is a user class, the constructor has four parameters But the function only to the three assignment of the email is not assigned, there is a test case is probably User user = new User ( abc , age , address , abc @ gmail. com ) asked the last email is not equal to abc@gmail.com I chose the wrong. Look at the log is not difficult to find the same reason to ask the same point that can be a few.
+
+
+https://translate.google.com/translate?hl=en&sl=zh-CN&tl=en&u=http%3A%2F%2Fwdxtub.com%2Finterview%2F14520850399861.html&sandbox=1

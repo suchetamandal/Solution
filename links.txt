@@ -1,0 +1,69 @@
+1.Given sides of a triangle write a function which could say it is equilateral , isosceles or scalene. Give Test data for the solution you give
+2.Write a program to find Max Depth of a BST. Give test data for the same.  
+
+https://www.quora.com/What-are-the-questions-asked-in-an-Amazon-Online-Test-in-HackerRank
+http://www.geeksforgeeks.org/find-next-greater-number-set-digits/
+http://www.geeksforgeeks.org/longest-increasing-subsequence/
+http://www.geeksforgeeks.org/must-do-coding-questions-for-companies-like-amazon-microsoft-adobe/
+https://www.evernote.com/shard/s683/sh/818ee16b-58ba-4e87-b2f1-1cfd31a2c6cb/0ebd7ed6e9399009
+https://discuss.leetcode.com/topic/61493/five-score-average/4
+
+http://eeweb.poly.edu/faculty/yongliu/docs/CircleRec.pdf
+
+https://www.glassdoor.com/Interview/Amazon-Software-Development-Engineer-Interview-Questions-EI_IE6036.0,6_KO7,36.htm
+
+https://github.com/Joeliy/Amazon/blob/master/com/joe/september/question1/Question.java
+
+https://github.com/KalyaniSingh21/Amazon-Practise/tree/master/src/amazonpractise
+https://github.com/shaznee/AmazonSDEInterview/tree/master/src
+http://www.amethlex.com/archives/117
+https://github.com/interviewdiscussion/files
+
+https://instant.1point3acres.com/thread/196956
+amazon leadership principles for work simulation 
+https://wenyuanjiao.gitbooks.io/algorithm_practice/content/round_robin.html
+
+Coding part of this feeling only 4 questions this year? Window sum, rectangle overlap, longest palindrome, k closest points.
+
+链接: https://instant.1point3acres.com/thread/282431
+来源: 一亩三分地
+
+Part I Work Simulation. Gave two hours, 30-60 minutes can be done. Links that are not very detailed, but the basic are reading questions, a small part of the test logic of the debug.
+Part II Coding for 70 minutes. The first question Window Sum, the second question Find K nearest point. K nearest point link to the priority of the sort order to change. There is this question return empty list and return null I made a mistake so a test case has been difficult to come after the check out.
+The third part is Coding for 30 minutes. Highest Five Scores. Known student id and test scores, to return a map with average of highest five scores for each student.
+
+
+
+OA2 next day I received. . Waral Ti argon  chain Qun stagnant water still water Dong Jin Ku,
+OA2 still the same, in front of a working simulation, first The second part is a three-question coding.
+Behind the three problems of coding should be the old nine questions, say it again: window sum, overlap rectangle, Deep Copy linkedlist
+K nearest point, longest palindrome substring, high little scores, minimum spanning tree, -google 1point3acres
+company tree, order dependency.
+
+Landowners encounter window sum, k nearest point, order dependency.
+Basically are seconds off, we brush a few times, proper. Pay attention to write comments better.
+
+
+http://wdxtub.com/interview/14520850399861.html
+
+https://jianfengzeng.gitbooks.io/algorithm-summary/content/longest_palindrome.html
+
+Company tree,
+MST
+Order Dependency
+Rectangle Overlap
+
+
+http://robl.co/implement-your-own-hashmap/
+http://www.vogella.com/tutorials/JavaDatastructures/article.html
+https://cyqz.wordpress.com/2017/02/
+http://www.amethlex.com/archives/150
+
+https://github.com/IMCG/icoding/tree/master/GeekforGeek
+
+
+
+http://ieeexplore.ieee.org/document/7403725/?reload=true
+amazon product co parchasing
+file:///C:/Users/suche/Downloads/Influence_Spread_Maximization_in_Social_Network.pdf
+https://cyqz.wordpress.com/2017/02/
