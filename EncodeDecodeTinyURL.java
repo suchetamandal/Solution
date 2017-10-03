@@ -1,5 +1,5 @@
 public class EncodeDecodeTinyURL {
-    Map<String,String> urlMap = new HashMap<Integer, String>();
+    Map<String,String> urlMap = new HashMap<String, String>();
     // Encodes a URL to a shortened URL.
     public String encode(String longUrl) {
         String key = String.valueOf(longUrl.hashCode());
