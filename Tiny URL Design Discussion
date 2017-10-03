@@ -1,0 +1,32 @@
+Tiny URL leetcode  Related Question
+----------------------------------------------------------------
+1. How many unique identifiers possible? Will you run out of unique URLs?
+--> 1 char 62 possible urls hence 4 chars will give possibel (62*62*62*62). Yes we will run out of unique urls after that.
+
+2. Should the identifier be increment or not? Which is easier to design? Pros and cons?
+--> usinh object's hashcode, we will not face this problem.
+
+Mapping an identifier to an URL and its reversal - Does this problem ring a bell to you?
+--> pros (You are not displaying the actual domain information and sub directory to users
+		  Great for reusability checkpoint.
+		  )
+--> cons (It will tale lil longer to time to give response, as system have to decode it first
+		  At first people might think its a span as in they can not see the actual domain info
+		  Redirection in SEO is bad
+		  Page Speed)
+<https://prettylinks.com/2017/02/the-pros-and-cons-of-link-shortening/>
+
+3. How do you store the URLs? Does a simple flat file database work?
+--> No simple flat file will take to much time to acess the url entry.
+    Write ones and ready many time; I will use NoSQL key value pair database.
+
+What is the bottleneck of the system? Is it read-heavy or write-heavy?
+--> read-heavy
+
+Estimate the maximum number of URLs a single machine can store.
+Estimate the maximum number of queries per second (QPS) for decoding a shortened URL in a single machine.
+How would you scale the service? For example, a viral link which is shared in social media could result in a peak QPS at a moment's notice.
+How could you handle redundancy? i,e, if a server is down, how could you ensure the service is still operational?
+Keep URLs forever or prune, pros/cons? How we do pruning? (Contributed by @alex_svetkin)
+What API would you provide to a third-party developer? (Contributed by @alex_svetkin)
+If you can enable caching, what would you cache and what's the expiry time? (Contributed by @Humandroid)
