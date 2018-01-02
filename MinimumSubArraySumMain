@@ -1,0 +1,49 @@
+/**
+ * Given an array of n positive integers and a positive integer s, find the
+ * minimal length of a subarray of which the sum ≥ s. If there isn't one, return
+ * 0 instead.
+ * 
+ * For example, given the array [2,3,1,2,4,3] and s = 7, the subarray [4,3] has
+ * the minimal length of 2 under the problem constraint.
+ * 
+ * @author sucheta
+ *
+ */
+public class MinimumSubArraySumMain {
+
+	public static void main(String[] args) {
+		int s = 7;
+		int[] numbs = { 2, 3, 1, 2, 4, 3 };
+		System.out.println("The minimum length is " + minSubArrayLen(s, numbs));
+
+	}
+
+	public static int minSubArrayLen(int s, int[] nums) {
+		int i = 0;
+		int j = 0;
+		int sum = 0;
+		int minLen = Integer.MAX_VALUE;
+		while (j < nums.length) {
+			if (sum < s) {
+				sum += nums[j];
+				j++;
+			} else {
+				if (j == i - 1) {
+					return 1;
+				}
+				minLen = Math.min(minLen, (j - i));
+				sum -= nums[i];
+				i++;
+			}
+		}
+
+		while (sum >= s) {
+			minLen = Math.min(minLen, (j - i));
+			sum -= nums[i];
+			i++;
+		}
+
+		return minLen == Integer.MAX_VALUE ? 0 : minLen;
+	}
+
+}
